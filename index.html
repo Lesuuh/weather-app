@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font awesome links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- external css links -->
+    <link rel="stylesheet" href="assets/styles.css">
+    
+</head>
+<body>
+    <main>
+        <div class="section">
+                <!-- input search -->
+            <div class="input">
+                <input type="text" name="city" id="city" class="city" placeholder="Enter a city">
+                <button>
+                    <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #ffffff;"></i>
+                </button>
+            </div>
+
+            <!-- error -->
+            <h3 class="error">Invalid City </h3>
+            <!-- city and temperature -->
+            <div class="temperature">
+                <div class="city">Lagos</div>
+                <div class="temp">28°C</div>
+            </div>
+        </div>
+        <!-- other weather conditons -->
+        <div class="weather-condition">
+            <div class="box">
+                <p>Humidity</p>
+                <h3 class="humidity">63%</h3>
+            </div>
+            <div class="box">
+                <p>Wind Speed</p>
+                <h3 class="speed">21KM/hr</h3>
+            </div>
+        </div>
+    </main>
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/app.js"></script>
+</body>
+</html>
